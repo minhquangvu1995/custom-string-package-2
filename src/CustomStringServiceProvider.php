@@ -8,7 +8,7 @@ class CustomStringServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->bind('customString', function($app) {
+        $this->app->bind('minhvq', function($app) {
             return new CustomString();
         });
     }

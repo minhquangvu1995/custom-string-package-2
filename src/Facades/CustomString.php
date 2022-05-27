@@ -8,6 +8,6 @@ class CustomString extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'customString';
+        return 'minhvq';
     }
 }
