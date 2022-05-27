@@ -10,10 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {},
     "autoload": {
         "psr-4": {
-            "MinhVuQuang\\CustomString\\": "src"
+            "MinhVuQuang\\CustomString\\": "src/"
         },
         "files": [
             "src/CustomString.php"
