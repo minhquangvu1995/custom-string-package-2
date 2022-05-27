@@ -8,6 +8,6 @@ class CustomString extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \MinhVuQuang\CustomString::class;
+        return 'customString';
     }
 }
