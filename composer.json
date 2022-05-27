@@ -15,9 +15,6 @@
     "autoload": {
         "psr-4": {
             "MinhVuQuang\\Facades\\": "vendor/minhvq/custom-string/src"
-        },
-        "files": [
-            "src/CustomString.php"
-        ]
+        }
     }
 }
