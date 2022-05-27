@@ -17,7 +17,7 @@
             "MinhVuQuang\\Facades\\": "src/"
         },
         "files": [
-            "src/CustomString.php"
+            "src/CustomStringString.php"
         ]
     },
     "extra": {
