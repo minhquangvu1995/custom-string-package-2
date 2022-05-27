@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "CustomString\\": "src"
+            "MinhVuQuang\\CustomString\\": "src"
         },
         "files": [
             "CustomString.php"
