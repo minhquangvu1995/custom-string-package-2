@@ -23,10 +23,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Facades\\CustomStringServiceProvider"
+                "Abc\\CustomStringServiceProvider"
             ],
             "aliases": {
-                "CustomString": "Facades\\CustomString"
+                "CustomString": "Abc\\CustomString"
             }
         }
     }
