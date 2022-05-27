@@ -19,5 +19,15 @@
         "files": [
             "src/CustomString.php"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Facades\\CustomStringServiceProvider"
+            ],
+            "aliases": {
+                "CustomString": "\\Facades\\CustomString"
+            }
+        }
     }
 }

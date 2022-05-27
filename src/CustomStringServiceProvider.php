@@ -1,6 +1,6 @@
 <?php
 
-namespace MinhVuQuang\Facades;
+namespace MinhVuQuang;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -9,7 +9,7 @@ class CustomStringServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('customString', function($app) {
-            return new \MinhVuQuang\CustomString();
+            return new CustomString();
         });
     }
 }
