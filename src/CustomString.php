@@ -2,7 +2,7 @@
 
 namespace MinhVuQuang;
 
-class CustomStringString
+class CustomString
 {
     private $result;
 

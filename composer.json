@@ -17,11 +17,14 @@
             "MinhVuQuang\\Facades\\": "src/"
         },
         "files": [
-            "src/CustomStringString.php"
+            "src/CustomString.php"
         ]
     },
     "extra": {
         "laravel": {
+            "providers": [
+                "\\Facades\\CustomStringServiceProvider"
+            ],
             "aliases": {
                 "CustomString": "\\Facades\\CustomString"
             }
