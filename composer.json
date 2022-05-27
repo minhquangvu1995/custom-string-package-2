@@ -16,7 +16,7 @@
             "MinhVuQuang\\CustomString\\": "src"
         },
         "files": [
-            "CustomString.php"
+            "src/CustomString.php"
         ]
     },
     "extra": {
