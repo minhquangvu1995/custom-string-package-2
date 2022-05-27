@@ -14,7 +14,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "MinhVuQuang\\CustomString\\": "src/"
+            "MinhVuQuang\\Facades\\": "src/"
         },
         "files": [
             "src/CustomString.php"
