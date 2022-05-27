@@ -12,4 +12,9 @@ class CustomStringServiceProvider extends ServiceProvider
             return new \MinhVuQuang\CustomString();
         });
     }
+
+    public function isDeferred()
+    {
+        return true;
+    }
 }
