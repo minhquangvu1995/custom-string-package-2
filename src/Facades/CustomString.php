@@ -1,6 +1,6 @@
 <?php
 
-namespace MinhVuQuang\Facades;
+namespace minhvq\customString;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -14,7 +14,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "MinhVuQuang\\Facades\\": "vendor/minhvq/custom-string/src"
+            "MinhVuQuang\\Facades\\": "vendor/minhvq/customString/src"
         }
     }
 }
