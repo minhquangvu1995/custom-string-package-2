@@ -4,8 +4,36 @@ namespace MinhVuQuang;
 
 class CustomString
 {
-    public function generate($string)
+    private $result;
+
+    public function __construct()
     {
-        return 'HELLO ' . $string;
+        $this->result = 0;
+    }
+
+    public function add(int $value)
+    {
+        $this->result += $value;
+
+        return $this;
+    }
+
+    public function subtract(int $value)
+    {
+        $this->result -= $value;
+
+        return $this;
+    }
+
+    public function clear()
+    {
+        $this->result = 0;
+
+        return $this;
+    }
+
+    public function getResult()
+    {
+        return $this->result;
     }
 }
