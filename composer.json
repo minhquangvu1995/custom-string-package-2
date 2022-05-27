@@ -1,0 +1,32 @@
+{
+    "name": "minhvq/custom-string",
+    "description": "Custom string package",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Minh Vũ Quang",
+            "email": "minhvu2904@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CustomString\\": "src"
+        },
+        "files": [
+            "CustomString.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MinhVuQuang\\Facades\\CustomStringServiceProvider"
+            ],
+            "aliases": {
+                "CustomString": "MinhVuQuang\\Facades\\CustomString"
+            }
+        }
+    }
+}
