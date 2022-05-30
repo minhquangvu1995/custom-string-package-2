@@ -1,6 +1,6 @@
 <?php
 
-namespace minhvq\customString;
+namespace MinhVuQuang\CustomString;
 
 use Illuminate\Support\ServiceProvider;
 
