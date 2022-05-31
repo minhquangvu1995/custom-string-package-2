@@ -16,5 +16,12 @@
         "psr-4": {
             "MinhVuQuang\\Facades\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MinhVuQuang\\CustomString\\CustomStringServiceProvider"
+            ]
+        }
     }
 }
